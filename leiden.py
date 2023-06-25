@@ -4,7 +4,7 @@ import igraph as ig
 import re
 
 '''
-Takes in a igraph object and returns a the partitions
+Takes in a igraph object and returns the result partition object
 Utilizes best experimental settings, subject to change
 '''
 def generate_leiden_optimized(graph):
